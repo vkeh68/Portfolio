@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme-dark.css" media="(prefers-color-scheme: dark)">
+  </head>
+  <body>
+    <!-- Header 시작 -->
+    <header>
+      <div class="container">
+        <h1>이런 <strong>프로그래머</strong>, 찾고 계신가요?</h1>
+      </div>
+    </header>
+    <!-- Header 끝 -->
+    <!-- Navbar 시작 -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid text-uppercase">
+        <a class="navbar-brand" href="#">WOO YE JI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse sticky-fixed" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#summary">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#stacks">Stacks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar 끝 -->
+    <!-- Main 시작 -->
+    <main>
+      <!-- Summary 시작 -->
+      <section class="container pt mt" id="summary">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Summary</h2>
+            <p class="color-basic fonsiz-xl fonwei-kr-xs letsp-xs ws-sm mt-4">
+              안녕하세요!    <span class="fonwei-en-xl letsp-md">  Java, JSP</span>개발자 우예지입니다. <br>
+              저는 무엇이든 <span class="fonwei-kr-md"> 뜯어보고 파헤쳐보아야 직성이 풀리는</span> 궁금증 많은 성격의 소유자입니다. <br>
+              그런 저에게 프로그래밍이란 <span class="fonwei-en-xl letsp-md">무한 동력</span>과 같은 존재입니다. 
+              시작부터 끝까지 궁금증을 자극해주는 점은 <span class="fonwei-kr-md"> 풀지 않은 퀴즈,<br> 전부 맞춰지지 않은 큐브 그리고 퍼즐</span> 같은 존재입니다.
+              이렇게 끊임없이 해답을 찾게하는 매력을 가진 프로그래밍에 빠진 <br>
+              26살 청춘, 저 <span class="fonwei-kr-md"> 우예지</span>를 소개하고자 이 포트폴리오를 제작하게 되었습니다.
+                    
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Summary 끝 -->
+      <!-- Project 시작 -->
+      <section class="container pt mt" id="project">
+        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Project</h2>
+        <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+          시작과 끝 모두 꼼꼼히, 저는 이러한 프로젝트들을 만들었습니다.
+        </div>
+        <div class="card shadow">
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table borderless table-hover align-middle">
+                <thead class="border-0 borderless" border="0">
+                  <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
+                    <th>프로젝트</th>
+                    <th>소개</th>
+                    <th>개발 참여도</th>
+                    <th>추가 정보</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- <tr>
+                    <th class="table-title" scope="col">개발한 프로젝트 서비스</th>
+                    <td>
+                      <div>[회사명] + 서비스명 + 서비스의 간략한 개요</div>
+                      <div>
+                        #검색연관키워드 #검색연관키워드 #검색연관키워드
+                        #검색연관키워드 #검색연관키워드 #검색연관키워드
+                        #검색연관키워드
+                      </div>
+                      <div>
+                        <span class="badge bg-inprogress">In Progress</span>
+                        <span class="badge bg-grey">React</span>
+                        <span class="badge bg-grey">Redux</span>
+                        <span class="badge bg-grey">JavaScript ES6</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Bootstrap 4</span>
+                        <span class="badge bg-grey">Node.js</span>
+                        <span class="badge bg-grey">Koa</span>
+                        <span class="badge bg-grey">MongoDB</span>
+                        <span class="badge bg-grey">AWS EC2</span>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <div class="">( ~ M/M)</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%">
+                          <span class="progress-desc">개발중</span>
+                        </div>
+                      </div>
+                      <div class="progress-desc">백엔드 단독 개발</div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted">
+                        <i class="bi bi-file-earmark-slides"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-title" scope="col">개발한 프로젝트 서비스</th>
+                    <td>
+                      <div>[회사명] + 서비스명 + 서비스의 간략한 개요</div>
+                      <div>
+                        #검색연관키워드 #검색연관키워드 #검색연관키워드
+                        #검색연관키워드 #검색연관키워드 #검색연관키워드
+                        #검색연관키워드
+                      </div>
+                      <div>
+                        <span class="badge bg-done">Done</span>
+                        <span class="badge bg-grey">React</span>
+                        <span class="badge bg-grey">Redux</span>
+                        <span class="badge bg-grey">JavaScript ES6</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Bootstrap 4</span>
+                        <span class="badge bg-grey">Node.js</span>
+                        <span class="badge bg-grey">Koa</span>
+                        <span class="badge bg-grey">MongoDB</span>
+                        <span class="badge bg-grey">AWS EC2</span>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <div class="">(0.5M/M)</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                      <div class="progress-desc">백엔드 개발</div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted">
+                        <i class="bi bi-file-earmark-slides"></i>
+                      </span>
+                    </td>
+                  </tr> -->
+                  <tr>
+                    <th class="table-title" scope="col">개발한 프로젝트 서비스</th>
+                    <td>
+                      <div>[클론프로젝트] 마켓컬리 : 코로나19 장기화로 인해 비대면 온라인 플랫폼이 많은 주목을 받게 되었습니다. <br>
+                         이와 같은 트렌드에 맞춰 비대면 유통·배송 플랫폼인 "마켓컬리"를 클론해보는 프로젝트를 진행하였습니다. </div>
+                      <div>
+                        #마켓컬리 #클론 #웹기반
+                        #비대면 #코로나 
+                      </div>
+                      <div>
+                        <span class="badge bg-done">Done</span>
+                        <span class="badge bg-grey">JSP</span>
+                        <span class="badge bg-grey">JavaScript</span>
+                        <span class="badge bg-grey">Java</span>
+                        <span class="badge bg-grey">jquery</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">MySQL</span>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal1">
+                        <i class="bi bi-file-earmark-slides"></i>
+                        <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="Modal1Label">개발 프로젝트 이미지 자료</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div id="demo" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <!-- 슬라이드 쇼 -->
+                                      <div class="carousel-item active">
+                                      <img class="d-block w-100 h-100" src="assets/img/마켓컬리1.jpg" alt="First slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100 h-100" src="assets/img/마켓컬리2.jpg" alt="Second slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100 h-100" src="assets/img/마켓컬리3.jpg" alt="Third slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100 h-100" src="assets/img/마켓컬리4.jpg" alt="Third slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100 h-100" src="assets/img/마켓컬리5.jpg" alt="Third slide">
+                                      </div>
+                                      <!-- / 슬라이드 쇼 끝 -->
+                                    <!-- 왼쪽 오른쪽 화살표 버튼 -->
+                                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                       <!-- <span>Previous</span> -->
+                                    </a>
+                                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <!-- <span>Next</span> -->
+                                    </a>
+                                    <!-- / 화살표 버튼 끝 -->
+                                  </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-title" scope="col">개발한 프로젝트 서비스</th>
+                    <td>
+                      <div>제멋대구로드 : 평소 여행 정보를 얻기 위해서는 각종 포털 사이트 및 SNS를 통해 각각 찾아봐야한다는 점이 불편하다고 생각했습니다. <br>
+                        이러한 경험을 바탕으로 관리자가 등록한 정보를 포함하여 사용자의 등록한 정보와 의견을 집약하여 정보를 제공하는 프로젝트를 진행하였습니다.
+                      </div></div>
+                      <div>
+                        #대구 #소개페이지 #관광
+                        #여행 #안내 
+                      </div>
+                      <div>
+                        <span class="badge bg-done">Done</span>
+                        <span class="badge bg-grey">JSP</span>
+                        <span class="badge bg-grey">JavaScript</span>
+                        <span class="badge bg-grey">Java</span>
+                        <span class="badge bg-grey">jquery</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Bootstrap</span>
+                        <span class="badge bg-grey">MySQL</span>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal2">
+                        <i class="bi bi-file-earmark-slides"></i>
+                        <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="Modal1Label">개발 프로젝트 이미지 자료</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div id="demo2" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <!-- 슬라이드 쇼 -->
+                                      <div class="carousel-item active">
+                                      <img class="d-block w-100 h-100" src="assets/img/제멋대구로드1.jpg" alt="First slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100 h-100" src="assets/img/제멋대구로드2.jpg" alt="Second slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100 h-100" src="assets/img/제멋대구로드3.jpg" alt="Third slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100 h-100" src="assets/img/제멋대구로드4.jpg" alt="Third slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100 h-100" src="assets/img/제멋대구로드5.jpg" alt="Third slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100 h-100" src="assets/img/제멋대구로드6.jpg" alt="Third slide">
+                                      </div>
+                                      <!-- / 슬라이드 쇼 끝 -->
+                                    <!-- 왼쪽 오른쪽 화살표 버튼 -->
+                                    <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                       <!-- <span>Previous</span> -->
+                                    </a>
+                                    <a class="carousel-control-next" href="#demo2" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <!-- <span>Next</span> -->
+                                    </a>
+                                    <!-- / 화살표 버튼 끝 -->
+                                  </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-title" scope="col">개발한 프로젝트 서비스</th>
+                    <td>
+                      <div>병원예약관리시스템 : 해당 병원 정보 제공 및 온라인 진료 예약이 가능한 병원 예약관리 프로젝트를 진행하였습니다.</div>
+                      <div>
+                        #병원 #예약 #All-in-one #안내
+                      </div>
+                      <div>
+                        <span class="badge bg-done">Done</span>
+                        <span class="badge bg-grey">JSP</span>
+                        <span class="badge bg-grey">JavaScript</span>
+                        <span class="badge bg-grey">Java</span>
+                        <span class="badge bg-grey">jquery</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Bootstrap</span>
+                        <span class="badge bg-grey">MySQL</span>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal3">
+                        <i class="bi bi-file-earmark-slides"></i>
+                        <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="Modal1Label">개발 프로젝트 이미지 자료</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div id="demo3" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <!-- 슬라이드 쇼 -->
+                                      <div class="carousel-item active">
+                                      <img class="d-block w-100 h-100" src="assets/img/병원관리시스템1.jpg" alt="First slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100 h-100" src="assets/img/병원관리시스템2.jpg" alt="Second slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100 h-100" src="assets/img/병원관리시스템3.jpg" alt="Third slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100 h-100" src="assets/img/병원관리시스템4.jpg" alt="Third slide">
+                                      </div>
+                                      <!-- / 슬라이드 쇼 끝 -->
+                                    <!-- 왼쪽 오른쪽 화살표 버튼 -->
+                                    <a class="carousel-control-prev" href="#demo3" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                       <!-- <span>Previous</span> -->
+                                    </a>
+                                    <a class="carousel-control-next" href="#demo3" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <!-- <span>Next</span> -->
+                                    </a>
+                                    <!-- / 화살표 버튼 끝 -->
+                                  </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-desc fonsiz-xs fonwei-kr-sm letsp-sm text-center color-basic-opac">프로젝트들은 최근 개발한 순으로 정렬되어 있습니다</div>
+          </div>
+        </div>
+      </section>
+      <!-- Project 끝 -->
+      <!-- Awards 시작 -->
+      <!-- <section class="container pt mt" id="awards">
+        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Awards</h2>
+        <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+          다양한 사람들과 협업을 통해서 함께 공동의 목표를 성취해 나가는 것에 관심이 많습니다.
+          실패를 겁내지 않고 도전하는 것이 행복합니다.
+        </div>
+        <div class="card shadow">
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-hover align-middle">
+                <thead>
+                  <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
+                    <th>대회</th>
+                    <th>세부 사항 </th>
+                    <th>수상</th>
+                    <th>증빙자료</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th class="table-title" scope="col">2021 국제 해커톤</th>
+                    <td>
+                      <div>[참여팀명] + 대회의 간략한 개요 + 서비스의 개요 </div>
+                      <div>
+                        #검색연관키워드 #검색연관키워드 #검색연관키워드
+                        #검색연관키워드 #검색연관키워드 #검색연관키워드
+                        #검색연관키워드
+                      </div>
+                      <div>
+                        <span class="badge bg-grey">React</span>
+                        <span class="badge bg-grey">Redux</span>
+                        <span class="badge bg-grey">JavaScript ES6</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Bootstrap 4</span>
+                        <span class="badge bg-grey">Node.js</span>
+                        <span class="badge bg-grey">Koa</span>
+                        <span class="badge bg-grey">MongoDB</span>
+                        <span class="badge bg-grey">AWS EC2</span>
+                      </div>
+                      <div class="profile"> 
+                        <img src="assets/img/user1.jpg" alt="">
+                        <img src="assets/img/user2.jpg" alt="">
+                        <img src="assets/img/user3.jpg" alt="">
+                        <img src="assets/img/user4.jpg" alt="">
+                        <img src="assets/img/user5.jpg" alt="">
+                      </div>
+                    </td>
+                    <td class="fonsiz-md letsp-sm fonwei-kr-md text-center color-basic-opac">대상</td>
+                    <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#myModal2" >
+                        <i class="bi bi-file-earmark-slides"></i>
+                      </span> -->
+                      <!-- Modal 시작 -->
+                      <!-- <div class="modal fade" id="myModal2" tabindex="-1" aria-labelledby="myModal2Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="myModal2Label">시상식 증빙 자료 </h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="assets/svg/your-awards.svg" class="modal-img" alt="">
+                                <p class="modal-desc">
+                                  여기에 시상에 대한 증빙 자료(수상 관련 사진, 관련 발표 자료등)를 입력해 주세요. 
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                            <!-- </div>
+                          </div>
+                        </div>
+                      </div> -->
+                      <!-- Modal 끝 -->
+                    <!-- </td>
+                  </tr>
+                  <tr>
+                    <th class="table-title" scope="col">2021 판교 창업 경진 대회</th>
+                    <td>
+                      <div>[참여팀명] + 대회의 간략한 개요 + 서비스의 개요 </div>
+                      <div>
+                        #검색연관키워드 #검색연관키워드 #검색연관키워드
+                        #검색연관키워드 #검색연관키워드 #검색연관키워드
+                        #검색연관키워드
+                      </div>
+                      <div>
+                        <span class="badge bg-grey">React</span>
+                        <span class="badge bg-grey">Redux</span>
+                        <span class="badge bg-grey">JavaScript ES6</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Bootstrap 4</span>
+                        <span class="badge bg-grey">Node.js</span>
+                        <span class="badge bg-grey">Koa</span>
+                        <span class="badge bg-grey">MongoDB</span>
+                        <span class="badge bg-grey">AWS EC2</span>
+                      </div>
+                      <div class="profile"> 
+                        <img src="assets/img/user1.jpg" alt="">
+                        <img src="assets/img/user2.jpg" alt="">
+                        <img src="assets/img/user3.jpg" alt="">
+                      </div>
+                    </td>
+                    <td class="fonsiz-md letsp-sm fonwei-kr-md text-center color-basic-opac">최우수상</td>
+                    <td class="text-center">
+                      <span class="text-muted" >
+                        <i class="bi bi-file-earmark-slides"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-title" scope="col">인공지능 해커톤</th>
+                    <td>
+                      <div>[참여팀명] + 대회의 간략한 개요 + 서비스의 개요 </div>
+                      <div>
+                        #검색연관키워드 #검색연관키워드 #검색연관키워드
+                        #검색연관키워드 #검색연관키워드 #검색연관키워드
+                        #검색연관키워드
+                      </div>
+                      <div>
+                        <span class="badge bg-grey">React</span>
+                        <span class="badge bg-grey">Redux</span>
+                        <span class="badge bg-grey">JavaScript ES6</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Bootstrap 4</span>
+                        <span class="badge bg-grey">Node.js</span>
+                        <span class="badge bg-grey">Koa</span>
+                        <span class="badge bg-grey">MongoDB</span>
+                        <span class="badge bg-grey">AWS EC2</span>
+                      </div>
+                      <div class="profile"> 
+                        <img src="assets/img/user1.jpg" alt="">
+                        <img src="assets/img/user2.jpg" alt="">
+                        <img src="assets/img/user3.jpg" alt="">
+                        <img src="assets/img/user4.jpg" alt="">
+                        <img src="assets/img/user5.jpg" alt="">
+                      </div>
+                    </td>
+                    <td class="fonsiz-md letsp-sm fonwei-kr-md text-center color-basic-opac">대상</td>
+                    <td class="text-center">
+                      <span class="text-muted">
+                        <i class="bi bi-file-earmark-slides"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-title" scope="col">스타트업 데모데이</th>
+                    <td>
+                      <div>[참여팀명] + 대회의 간략한 개요 + 서비스의 개요 </div>
+                      <div>
+                        #검색연관키워드 #검색연관키워드 #검색연관키워드
+                        #검색연관키워드 #검색연관키워드 #검색연관키워드
+                        #검색연관키워드
+                      </div>
+                      <div>
+                        <span class="badge bg-grey">React</span>
+                        <span class="badge bg-grey">Redux</span>
+                        <span class="badge bg-grey">JavaScript ES6</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Bootstrap 4</span>
+                        <span class="badge bg-grey">Node.js</span>
+                        <span class="badge bg-grey">Koa</span>
+                        <span class="badge bg-grey">MongoDB</span>
+                        <span class="badge bg-grey">AWS EC2</span>
+                      </div>
+                      <div class="profile"> 
+                        <img src="assets/img/user1.jpg" alt="">
+                        <img src="assets/img/user2.jpg" alt="">
+                        <img src="assets/img/user3.jpg" alt="">
+                        <img src="assets/img/user4.jpg" alt="">
+                        <img src="assets/img/user5.jpg" alt="">
+                      </div>
+                    </td>
+                    <td class="fonsiz-md letsp-sm fonwei-kr-md text-center color-basic-opac">우수상</td>
+                    <td class="text-center">
+                      <span class="text-muted">
+                        <i class="bi bi-file-earmark-slides"></i>
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-desc fonsiz-xs fonwei-kr-sm letsp-sm text-center color-basic-opac">대회 참여 및 수상 실적은 최근 순으로 정렬되어 있습니다</div>
+          </div>
+        </div>
+      </section> -->
+      <section class="container pt mt mb-5" id="stacks">
+        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Stacks</h2>
+        <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+          만들고자 하는 목표에 대해 필요한 기술들을 빠르게 습득하고 구현합니다.
+          할 수 있는 경계선을 더 넓혀 나가고자 합니다.
+        </div>
+        <div class="card shadow">
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-hover align-middle">
+                <thead>
+                  <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
+                    <th>기술 구분</th>
+                    <th>로고</th>
+                    <th>활용 수준</th>
+                    <th>평가</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="col" class="table-title letsp-md">Java</th>
+                    <td>
+                      <a href="https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4)" target="_blank">
+                        <img src="assets/img/java.png" alt="JavaScript Logo" />
+                      </a>
+                    </td>
+                    <td>
+                      Spring MVC Framework를 기반으로 개발하며 다양한 웹 분야에도 능숙히 개발해낼 수 있습니다. <br>
+                      주로 백 엔드(Back-end)와 풀 스택(Full Stack)에 비중을 크게 두고 있습니다.
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="col" class="table-title letsp-md">JavaScript</th>
+                    <td>
+                      <a href="https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8" target="_blank">
+                        <img src="assets/img/js.png" alt="JavaScript Logo" />
+                      </a>
+                    </td>
+                    <td>
+                      <span class="ls-0">프론트엔드의 주 언어로 JavaScript를 사용하고 있으며, 각종 라이브러리를 활용할 수 있습니다. <br>
+                        주로 JQuery를 활용하며 Node.js를 사용해본 경험이 있습니다.
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="col" class="table-title letsp-md">MySQL</th>
+                    <td>
+                      <a href="https://ko.wikipedia.org/wiki/%EB%AA%BD%EA%B3%A0DB" target="_blank">
+                        <img src="assets/img/mysql.png" alt="MongoDB Logo" />
+                      </a>
+                    </td>
+                    <td>
+                      관계형 데이터베이스를 설계하고 <span class="ls-0">MySQL</span>을 사용하여 높은 생산성으로 <span class="ls-0">웹 서비스</span>를 개발하고 있습니다<br/>
+                      MySQL의 프론트엔드인 <span class="ls-0">Heidi SQL</span>을 사용하여 관리하고 있습니다.
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="charts" class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3 d-flex align-items-stretch">
+            <div class="card mb-3">
+              <div class="pt-5 pb-4">
+                <canvas id="chart1"></canvas>
+              </div>
+              <div class="card-body">
+                <div>
+                  <h4 class="card-title fonsiz-xl fonwei-en-xxl letsp-xxl text-upper text-center text-primary">Front End</h4>
+                </div>
+                <div class="card-text fonsiz-sm fonwei-kr-sm letsp-sm mb-3 mt-3 px-2"><span class="ls-0">JavaScript</span>를 가장 많이 사용하고 있습니다. 추가적으로 JavaScript의 라이브러리는 <span class="ls-0">JQuery</span>를 사용하고 있습니다.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 d-flex align-items-stretch">
+            <div class="card mb-3">
+              <div class="pt-5 pb-4">
+                <canvas id="chart2"></canvas>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title fonsiz-xl fonwei-en-xxl letsp-xxl text-upper text-center text-primary">Back end</h4>
+                <div class="card-text fonsiz-sm fonwei-kr-sm letsp-sm mb-3 mt-3 px-2">기본 언어는<span class="ls-0">Java</span>를 사용하며 <span class="ls-0">Spring </span> 프레임워크를 주로 활용하고 있습니다. 추가적으로 <span class="ls-0">Python</span>를 공부해보고 싶습니다.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 d-flex align-items-stretch">
+            <div class="card mb-3">
+              <div class="pt-5 pb-4">
+                <canvas id="chart3"></canvas>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title fonsiz-xl fonwei-en-xxl letsp-xxl text-upper text-center text-primary">Data base</h4>
+                <div class="card-text fonsiz-sm fonwei-kr-sm letsp-sm mb-3 mt-3 px-2"><span class="ls-0">MySQL</span>을 주로 사용하고 있습니다. 추가적으로 <span class="ls-0">Oracle</span>을 사용해본 경험이 있고, NoSQL 중 하나인 <span class="ls-0"> MongoDB</span>에 관심이 많습니다.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 d-flex align-items-stretch">
+            <div class="card mb-3">
+              <div class="pt-5 pb-4">
+                <canvas id="chart4"></canvas>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title fonsiz-xl fonwei-en-xxl letsp-xxl text-upper text-center text-primary">Utilities</h4>
+                <div class="card-text fonsiz-sm fonwei-kr-sm letsp-sm mb-3 mt-3 px-2">협업 시, 프로젝트 관리와 통합을 위해<span class="ls-0">GitHub</span> 를 사용하고 있습니다. 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container pt mt" id="education">
+        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Education</h2>
+        <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+          오직 한길만 보고 성실하게, 열심히 노력해 왔습니다. 항상 최선을 다하고 더 높은 것을 추구합니다.
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-lg-4">
+            <div class="card mb-3">
+              <img src="assets/img/java_img.jpg" class="card-img-top" alt="Profile Picture" />
+              <div class="card-body p-4">
+                <h5 class="card-title fonsiz-xxl fonwei-kr-xl letsp-sm">영진전문대학교 컴퓨터정보계열<br>(웹데이터베이스 전공)</h5>
+                <p class="card-text fonsiz-sm fonwei-kr-sm color-basic-opac letsp-sm">
+                  Spring FrameWork 기반의 자바 웹 개발 <br>
+                  <span class="ls-0">Web, Application software, Android</span> 분야
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <div class="card mb-3">
+              <img src="assets/img/java_img.jpg" class="card-img-top" alt="Profile Picture" />
+              <div class="card-body p-4">
+                <h5 class="card-title fonsiz-xxl fonwei-kr-xl letsp-sm">자바(JAVA) 프레임워크 개발자 양성과정 수료<br></h5>
+                <h5>　</h5>
+                <p class="card-text fonsiz-sm fonwei-kr-sm color-basic-opac letsp-sm">
+                  자바 언어 기반의 응용 SW 엔지니어링<br>
+                  <span class="ls-0">Web</span> 분야
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <div class="card mb-3">
+              <img src="assets/img/java_img.jpg" class="card-img-top" alt="Profile Picture" />
+              <div class="card-body p-4">
+                <h5 class="card-title fonsiz-xxl fonwei-kr-xl letsp-sm">영송여자고등학교</h5>
+                <h5>　</h5>
+                <p class="card-text fonsiz-sm fonwei-kr-sm color-basic-opac letsp-sm">
+                  　<br>　
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- contact 시작  -->
+      <section class="container pt mt" id="contact">
+        <div class="row">
+          <div class="col-lg-7 mx-auto text-center mb-5">
+            <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">
+              Contact
+            </h2>
+            <p class=" fonsiz-sm color-basic fonsiz-xl fonwei-kr-xs lh-md letsp-xs ws-sm my-4">
+              여기까지 읽어 주셔서 감사합니다. <br/>
+              항상 최선을 다해 성장하는 개발자가 되겠습니다.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="container backimg">
+        <div class="name-card d-flex justify-content-center align-items-center h-100">
+          <div class="contact-body shadow">
+            <div class="text-center mb-4">
+              <h1>Woo Ye Ji </h1>
+              <small>Java / JSP Developer</small>
+            </div>
+            <div class="d-flex">
+              <img src="assets/img/face1.jpg" />
+              <div class="ps-3">
+                <ul class="list-unstyled">
+                  <li>
+                    <span>
+                      <i class="bi bi-person-check-fill"></i>
+                      Position : <strong>Developer</strong>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="bi bi-envelope"></i>
+                      Email :
+                      <a href="mailto:kijepark@kijeslab.com">
+                        <strong>vkeh68@gmail/naver.com</strong>
+                      </a>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="bi bi-telephone-inbound"></i>
+                      Phone :
+                      <a href="tel:010-7688-3321">
+                        <strong>010-5547-2874</strong>
+                      </a>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="bi bi-house-door"></i>
+                      Blog :
+                      <a href="http://blog.naver.com/vkeh68">
+                        <strong>blog.naver.com/vkeh68</strong>
+                      </a>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact 끝  -->
+    </main>
+    <!-- Main 끝 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+    <script src="js/script.js"></script>
+    <script>
+      $('.carousel').carousel({
+         interval: 3000 //기본 5초 
+      })
+    </script>
+  </body>
+</html>
